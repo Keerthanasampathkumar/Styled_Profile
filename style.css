@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+    margin: 40px;
+}
+
+h1 {
+    background-color: lightskyblue;
+    text-align: center;
+    color: darkblue;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: wheat;
+    box-shadow: 0 0 10px rgba;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2em;
+    color: black;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lavenderblush;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}
+
+th {
+    border-bottom: 2px solid lightcoral;
+}
+
+td {
+    border-bottom: 1px solid whitesmoke;
+}
